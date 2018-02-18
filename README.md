@@ -1,1 +1,1 @@
-# browserslist-config
+# Lonely Planet's browserslist config
