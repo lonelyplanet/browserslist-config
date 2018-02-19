@@ -1,0 +1,43 @@
+{
+  "name": "@lonelyplanet/browserslist-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Lonely Planet's browserslist config",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lonelyplanet/browserslist-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lonelyplanet/browserslist-config/issues"
+  },
+  "homepage": "https://github.com/lonelyplanet/browserslist-config",
+  "author": {
+    "name": "Eric King",
+    "email": "eric.king@lonelyplanet.com",
+    "url": "http://webdeveric.com/"
+  },
+  "contributors": [],
+  "scripts": {
+    "test": "mocha --colors",
+    "lint": "eslint -c webdeveric --fix ./*.js ./bin ./test",
+    "lp-browsers": "node ./bin/lp-browsers.js"
+  },
+  "keywords": [
+    "browserslist",
+    "browserlist-config"
+  ],
+  "bin": {
+    "lp-browsers": "./bin/lp-browsers.js"
+  },
+  "devDependencies": {
+    "browserslist": "^3.1.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.18.0",
+    "eslint-config-webdeveric": "^0.2.0",
+    "mocha": "^5.0.1"
+  }
+}
