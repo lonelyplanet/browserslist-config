@@ -1,7 +1,7 @@
 # Lonely Planet's browserslist config
 
 ```
-npm i lonelyplanet/browserslist-config -D
+npm install @lonelyplanet/browserslist-config --save-dev
 ```
 
 Add this to your `package.json`.
