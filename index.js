@@ -1,5 +1,5 @@
 module.exports = [
   'last 3 versions',
-  'IE >= 10',
-  'not IE < 10',
+  'IE >= 11',
+  'not IE < 11',
 ];
