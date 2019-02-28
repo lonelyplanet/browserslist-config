@@ -23,7 +23,7 @@
   "contributors": [],
   "scripts": {
     "test": "mocha --colors",
-    "lint": "eslint -c webdeveric --fix ./*.js ./bin ./test",
+    "lint": "eslint --fix ./*.js ./bin ./test",
     "lp-browsers": "node ./bin/lp-browsers.js"
   },
   "keywords": [
@@ -34,10 +34,10 @@
     "lp-browsers": "./bin/lp-browsers.js"
   },
   "devDependencies": {
-    "browserslist": "^3.1.1",
-    "chai": "^4.1.2",
-    "eslint": "^4.18.0",
-    "eslint-config-webdeveric": "^0.2.0",
-    "mocha": "^5.0.1"
+    "browserslist": "^4.4.2",
+    "chai": "^4.2.0",
+    "eslint": "^5.14.1",
+    "eslint-config-webdeveric": "^0.3.0",
+    "mocha": "^6.0.0"
   }
 }

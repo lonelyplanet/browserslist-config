@@ -1,6 +1,6 @@
 const assert = require('chai').assert;
 const browserslist = require('browserslist');
-const name = require('../package.json').name;
+const { name } = require('../package.json');
 const config = require('../index.js');
 
 describe(name, function() {
