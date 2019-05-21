@@ -28,16 +28,16 @@
   },
   "keywords": [
     "browserslist",
-    "browserlist-config"
+    "browserslist-config"
   ],
   "bin": {
     "lp-browsers": "./bin/lp-browsers.js"
   },
   "devDependencies": {
-    "browserslist": "^4.4.2",
+    "browserslist": "^4.6.0",
     "chai": "^4.2.0",
-    "eslint": "^5.14.1",
+    "eslint": "^5.16.0",
     "eslint-config-webdeveric": "^0.3.0",
-    "mocha": "^6.0.0"
+    "mocha": "^6.1.4"
   }
 }
