@@ -4,8 +4,8 @@
   ],
   "env": {
     "browser": false,
-    "es6": true,
-    "mocha": true,
+    "es6": false,
+    "mocha": false,
     "node": true
   }
 }
